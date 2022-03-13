@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.body_filtr{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#inp_for_money{
+    width: 350px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 30px;
+    border: 0px;
+    padding: 0 10px;
+}
+#btn_filter button {
+    height: 40px;
+    border-radius: 30px;
+    border: 0px;
+    background: #ffffff;
+    color: #2c587e;
+    cursor: pointer;
+    padding: 0 25px;
+}
+#btn_filter {
+    background: #2c587e;
+}
+#result_money{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#result_money p{
+    text-align: left;
+    margin-top: 5px;
+    color: #212121;
+    background: antiquewhite;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+#result_money p:hover{
+    background: #f5ddbe;
+}
+.page_loading{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#result_money span{
+    color: rgb(155, 18, 18);
+    font-weight: 600;
+    font-family: sans-serif;
+}
